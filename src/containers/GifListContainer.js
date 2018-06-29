@@ -46,7 +46,6 @@ class GifListContainer extends Component {
     // console.log(this.state)
     return (
       <div>
-        <h2>GifListContainer</h2>
         <GifSearch gifSearch={this.handleSubmit} gifInput={this.handleChange}/>
         <GifList gifs={this.state.gifs}/>
       </div>
