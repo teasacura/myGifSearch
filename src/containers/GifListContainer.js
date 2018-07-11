@@ -25,7 +25,7 @@ class GifListContainer extends Component {
       .then(r => r.json())
       .then(r =>
         this.setState({
-        gifs: r.data.slice(0, 3)
+        gifs: r.data
       })
     )
   }
